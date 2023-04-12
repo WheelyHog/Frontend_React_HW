@@ -4,7 +4,6 @@ import Rating from '../Rating/Rating'
 import s from './ProductItem.module.css'
 
 export default function ProductItem({ product, addToCart }) {
-  console.log(product);
   const link = `/products/${product.id}`
   return (
     <div className={s.product}>

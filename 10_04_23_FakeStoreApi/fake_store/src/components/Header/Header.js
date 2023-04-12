@@ -3,8 +3,7 @@ import logo from '../../assets/images/hog_logo.png'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { NavLink } from 'react-router-dom'
 
-export default function Header({ cart }) {
-  let result = cart.reduce((accum, elem) => accum + elem.quantity, 0)
+export default function Header({ cart_count }) {
   return (
     <div className={s.header_wrapper}>
       <div className={s.logo}>
@@ -16,7 +15,7 @@ export default function Header({ cart }) {
         <NavLink to='/products'>Products</NavLink>
         <NavLink to='/cart'>
           <HiOutlineShoppingBag className={s.cart} />
-          <div className={result === 0 ? s.cart_count_empty : s.cart_count_full} >{result}</div>
+          <div className={cart_count === 0 ? s.cart_count_empty : s.cart_count_full} >{cart_count}</div>
         </NavLink>
       </div>
     </div>
