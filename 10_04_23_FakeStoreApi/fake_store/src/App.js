@@ -29,12 +29,12 @@ function App() {
       <Router>
         <Header cart={cart} />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
           <Route path="/products/category/:category" element={<CategoryPage />} />
           <Route path="/products" element={<ProductsPage addToCart={addToCart} />} />
           <Route path="/products/:id" element={<ProductInfo />} />
           <Route path="/cart/" element={<CartPage cart={cart} />} />
-          <Route path="*" element={<NotFoundPage />} />
+          {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
       </Router>
     </div>
