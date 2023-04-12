@@ -1,0 +1,21 @@
+.banner_inner{
+    display: flex;
+    padding: 100px 57px 86px 187px;
+    gap: 50px;
+    background-color: #F4F9E2;
+}
+
+.banner_description{
+    color: #22356F;
+}
+
+.banner_title{
+    font-size: 46px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 46px;
+}
+.banner_text{
+    font-size: 24px;
+    line-height: 43px;
+}

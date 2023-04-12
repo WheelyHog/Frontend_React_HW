@@ -1,0 +1,14 @@
+.products_inner {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  padding: 30px;
+  border: 1px solid grey;
+}
+
+.header {
+  text-align: center;
+  padding: 5px;
+  color: #006496;
+  background-color: #fff;
+}

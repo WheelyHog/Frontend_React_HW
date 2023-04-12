@@ -1,0 +1,46 @@
+.product {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.product img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product h3 {
+  height: 130px;
+  color: #006496;
+  cursor: pointer;
+}
+
+.product h4 {
+  color: #006d24;
+}
+
+.product a {
+  text-decoration: none;
+}
+
+.product button {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #006496;
+  border-radius: 5px;
+  color: #006496;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.product button:hover {
+  background-color: #006496;
+  color: #fff;
+}

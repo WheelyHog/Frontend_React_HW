@@ -1,0 +1,24 @@
+.cart_inner {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.cart_inner button {
+  background-color: royalblue;
+  height: 20px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.triggers {
+  display: flex;
+  gap: 5px;
+}
+
+.triggers button {
+  width: 20px;
+}

@@ -1,0 +1,11 @@
+.cart_page {
+  border: 1px solid grey;
+  margin-top: -1px;
+}
+
+.cart_page h2 {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+  color: #006496;
+}

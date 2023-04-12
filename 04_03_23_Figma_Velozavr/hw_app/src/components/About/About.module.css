@@ -1,0 +1,11 @@
+.about_inner{
+    margin:  250px auto 200px;
+    background-color: #ffffff;
+    width: 740px;
+}
+
+.about_text{
+    color: #22356F;
+    font-size: 24px;
+    font-style: italic;
+}

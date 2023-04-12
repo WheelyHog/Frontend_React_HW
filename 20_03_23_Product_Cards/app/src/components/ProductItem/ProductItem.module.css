@@ -1,0 +1,44 @@
+.triggers {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.trigger {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+
+.product {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  max-width: 250px;
+  color: #172839;
+  background-color: #c4dde9;
+}
+
+.product img {
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.product h4 {
+  color: #703d68;
+}
+
+.product button {
+  background-color: #388C94;
+  border: 1px solid #388C94;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+}

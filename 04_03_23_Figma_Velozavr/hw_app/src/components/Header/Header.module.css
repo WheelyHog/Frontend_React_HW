@@ -1,0 +1,20 @@
+.header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 150px;
+    background-color: #F4F9E2;
+
+}
+
+.header_btn {
+    width: 150px;
+    height: 50px;
+    background-color: #F9B640;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+}

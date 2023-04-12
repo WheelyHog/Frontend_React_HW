@@ -1,0 +1,32 @@
+
+
+
+.task_item{
+    background-color: #1ABC9C;
+    color: #fff;
+    font-size: 30px;
+    padding: 4px 17px;
+    width: 290px;
+    height: 45px;
+    position: relative;
+    cursor: pointer;
+}
+
+.task_item:hover > .close_btn{
+    opacity: 1;
+}
+
+.close_btn{
+    background-color: #e74c3c;
+    height: 28px;
+    width: 28px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -14px;
+    right: -14px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity .5s ease;
+}

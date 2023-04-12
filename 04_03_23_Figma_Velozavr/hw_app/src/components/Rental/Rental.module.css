@@ -1,0 +1,19 @@
+.rental_inner{
+    display: flex;
+}
+.rental_description{
+    padding: 200px 67px;
+}
+
+.rental_title,
+.rental_text{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-style: italic;
+    color: #22356F;
+    line-height: 53px;
+}
+.rental_img img{
+    display: block;
+}

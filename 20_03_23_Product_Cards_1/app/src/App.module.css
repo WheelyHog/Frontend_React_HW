@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.form_container {
+    max-width: 1380px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    height: 30px;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+form button {
+    height: 30px;
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.cart {
+    margin-top: 50px;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+}

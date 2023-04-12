@@ -1,0 +1,18 @@
+.category_inner {
+  border: 1px solid grey;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.category_inner h2 {
+  background-color: #fff;
+  padding: 5px;
+  color: #006496;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  padding: 20px;
+}

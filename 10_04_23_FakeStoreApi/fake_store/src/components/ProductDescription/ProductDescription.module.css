@@ -1,0 +1,23 @@
+.product_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+
+.product_inner img {
+  height: 400px;
+}
+
+.product_inner h3 {
+  color: #006496;
+}
+
+.product_inner h4 {
+  color: #006d24;
+}

@@ -1,0 +1,15 @@
+.product_info {
+  text-align: center;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/001/987/707/small_2x/abstract-modern-design-white-and-grey-geometric-background-free-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid grey;
+  margin-top: -1px;
+}
+
+.product_info h2 {
+  background-color: #fff;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+  color: #006496;
+}

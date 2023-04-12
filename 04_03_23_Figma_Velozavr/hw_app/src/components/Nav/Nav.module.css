@@ -1,0 +1,15 @@
+.top_menu{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+.top_menu_item a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 5px;
+    color: black;
+    font-weight: 400;
+}
+.active_item{
+    border-bottom: 1px solid black;
+}

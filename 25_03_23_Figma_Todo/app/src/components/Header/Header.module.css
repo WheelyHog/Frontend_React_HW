@@ -1,0 +1,81 @@
+.header_wrapper{
+    padding: 30px 60px;
+    background-color: #ECF0F1;
+    border-radius: 20px;
+    margin-bottom: 43px;
+}
+
+.header_wrapper select,
+.header_wrapper input{
+    height: 45px;
+    font-size: 20px;
+}
+.input_section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 520px;
+}
+.select_section{
+    display: flex;
+    gap: 30px;
+}
+
+.select_day,
+.select_importance{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+.select_section select{
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5px;
+    width: 100%;
+
+}
+
+.select_day::after,
+.select_importance::after{
+    content: url('assets/arrow.png');
+    position: absolute;
+    right: 0;
+    padding: 15px 10px;
+    border-left: 1px solid #000;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+form input{
+    padding-left: 15px;
+}
+
+::placeholder {
+    color: #000;
+}
+
+form button{
+    background-color: #1ABC9C;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 23px;
+    height: 45px;
+    width: 163px;
+    color: #fff;
+    transition: background-color .5s;
+}
+
+form button:hover{
+    background-color: #e74c3c;
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input_container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.input_container button,
+input {
+  padding: 10px;
+  border: 2px solid #172839;
+  border-radius: 5px;
+}
+
+.input_container button {
+  color: #fff;
+  background-color: #388C94;
+  height: 40px;
+  cursor: pointer;
+}

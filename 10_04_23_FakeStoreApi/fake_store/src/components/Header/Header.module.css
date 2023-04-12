@@ -1,0 +1,61 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/001/987/707/small_2x/abstract-modern-design-white-and-grey-geometric-background-free-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  color: #006496;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  position: relative;
+}
+
+.nav a {
+  color: #006496;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cart {
+  color: #006496;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.cart_count_empty {
+  background-color: lightgray;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 0 3px;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+}
+
+.cart_count_full {
+  background-color: brown;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 0 3px;
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+}
