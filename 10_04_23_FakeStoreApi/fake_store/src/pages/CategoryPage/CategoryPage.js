@@ -7,12 +7,13 @@ import s from './CategoryPage.module.css'
 export default function CategoryPage() {
   const { category } = useParams()
   const [categoryList, setCategoryList] = useState([]);
-  useEffect(() => getCategory(category, setCategoryList), [])
+  useEffect(() => getCategory(category, (data) => setCategoryList(data)), [])
+  console.log(categoryList);
   return (
     <div className={s.category_inner}>
       <h2>{category}</h2>
       <div className={s.products}>
-        {categoryList.map(product => <ProductItem {...product} key={product.id} />)}
+        {categoryList.map(product => <ProductItem product={product} key={product.id} />)}
       </div>
     </div>
 

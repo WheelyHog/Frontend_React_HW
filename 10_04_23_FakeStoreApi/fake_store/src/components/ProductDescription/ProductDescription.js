@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { products_req } from '../../requests/product_req';
-// import Rating from '../Rating/Rating';
+import Rating from '../Rating/Rating';
 import s from './ProductDescription.module.css'
 
 export default function ProductDescription({ id }) {
@@ -18,6 +18,7 @@ export default function ProductDescription({ id }) {
       <h4>Price: {price} $</h4>
       <p>Description: {description}</p>
       {/* <Rating rating={rating.rate} /> */}
+      <Rating {...rating} />
       {/* <p>{rating.rate}</p> */}
     </div>
   )
