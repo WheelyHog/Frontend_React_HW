@@ -50,6 +50,8 @@ function App() {
 
   const deleteCartItem = (product) => {
     cart = cart.filter(elem => elem.id !== product.id)
+    cart_count = cart.reduce((accum, elem) => accum + elem.quantity, 0)
+    setCart_count(cart_count)
     setCart(cart)
   }
 
