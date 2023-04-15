@@ -9,3 +9,16 @@
   text-align: center;
   color: #006496;
 }
+
+.empty {
+  background-color: #fff;
+  text-align: center;
+  color: brown;
+}
+
+.total {
+  padding: 10px;
+  background-color: #fff;
+  font-weight: 600;
+  color: #006496;
+}

@@ -28,18 +28,28 @@ function App() {
     }
     product.quantity = 1;
     cart = [...cart, product]
-
-    // if (!cart.includes(product)) {
-    //   console.log('Not');
-    //   product.quantity = 1;
-    //   cart = [...cart, product]
-    // } else {
-    //   product.quantity++;
-    //   console.log('Yes');
-    //   cart = [...cart]
-    // }
     cart_count = cart.reduce((accum, elem) => accum + elem.quantity, 0)
     setCart_count(cart_count)
+    setCart(cart)
+  }
+
+  const removeFromCart = (product) => {
+
+    for (let i = 0; i < cart.length; i++) {
+      if (cart[i].id === product.id) {
+        if (cart[i].quantity != 0) {
+          cart[i].quantity--
+        }
+      }
+    }
+    cart_count = cart.reduce((accum, elem) => accum + elem.quantity, 0)
+    setCart_count(cart_count)
+    cart = cart.filter(elem => elem.quantity !== 0)
+    setCart(cart)
+  }
+
+  const deleteCartItem = (product) => {
+    cart = cart.filter(elem => elem.id !== product.id)
     setCart(cart)
   }
 
@@ -52,7 +62,7 @@ function App() {
           <Route path="/products/category/:category" element={<CategoryPage addToCart={addToCart} />} />
           <Route path="/products" element={<ProductsPage addToCart={addToCart} />} />
           <Route path="/products/:id" element={<ProductInfo />} />
-          <Route path="/cart/" element={<CartPage cart={cart} />} />
+          <Route path="/cart/" element={<CartPage cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} deleteCartItem={deleteCartItem} />} />
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
       </Router>

@@ -7,6 +7,7 @@
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  position: relative;
 }
 
 .cart_item {
@@ -38,4 +39,23 @@
 
 .total {
   color: brown;
+}
+
+.close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  font-size: 26px;
+  color: brown;
+  border: none;
+  border-radius: 50%;
+  line-height: 18px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.close:hover {
+  background-color: brown;
+  color: #fff;
 }
