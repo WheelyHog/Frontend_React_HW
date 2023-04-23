@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
+}
+
+.info_item,
+.info_item_category {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info_item_category {
+  color: #8695A4;
+}
+
+.divider {
+  font-size: 21px;
+}

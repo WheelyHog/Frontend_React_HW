@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.info {
+  display: flex;
+  gap: 25px;
+  align-items: baseline;
+}
+
+.info_item {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.divider {
+  font-size: 21px;
+}

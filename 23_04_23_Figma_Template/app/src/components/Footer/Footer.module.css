@@ -1,0 +1,21 @@
+.footer {
+  text-align: center;
+  padding: 40px;
+}
+
+.social {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 14px;
+}

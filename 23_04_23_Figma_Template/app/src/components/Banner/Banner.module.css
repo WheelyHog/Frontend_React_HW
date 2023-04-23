@@ -1,0 +1,37 @@
+.banner {
+  display: flex;
+  margin: 140px 140px 70px;
+  gap: 110px;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.download {
+  background-color: #FF6464;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  width: 215px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all .5s;
+}
+
+.download:hover {
+  background-color: #fff;
+  color: #FF6464;
+  border: 2px solid #FF6464;
+}

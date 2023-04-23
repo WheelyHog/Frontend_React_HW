@@ -1,0 +1,32 @@
+.work_item {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 15px;
+}
+
+.work_item_info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  gap: 25px;
+}
+
+.year {
+  font-size: 18px;
+  font-weight: 900;
+  background-color: #142850;
+  color: #fff;
+  border-radius: 16px;
+  padding: 0 10px;
+  line-height: 29px;
+}
+
+.category {
+  color: #8695A4;
+  font-size: 20px;
+}

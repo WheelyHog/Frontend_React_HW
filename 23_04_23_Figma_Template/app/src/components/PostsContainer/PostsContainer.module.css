@@ -1,0 +1,26 @@
+.posts_container {
+  background: #EDF7FA;
+  padding: 30px 140px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.link {
+  font-size: 16px;
+  color: #00A8CC;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
