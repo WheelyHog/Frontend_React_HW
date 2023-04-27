@@ -20,6 +20,10 @@
   cursor: pointer;
 }
 
+.blog_link {
+  text-decoration: none;
+}
+
 .container {
   display: flex;
   gap: 20px;

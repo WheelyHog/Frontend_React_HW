@@ -11,6 +11,11 @@
   gap: 15px;
 }
 
+.title {
+  text-decoration: none;
+  color: #21243D;
+}
+
 .info {
   display: flex;
   gap: 25px;
@@ -29,4 +34,10 @@
 .category {
   color: #8695A4;
   font-size: 20px;
+}
+
+.image {
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5px;
 }
