@@ -1,5 +1,7 @@
 .wrapper {
-  margin: 27px 60px;
+  max-width: 1090px;
+  margin: 27px auto;
+  padding: 0 15px;
   display: flex;
   justify-content: flex-end;
 }
@@ -15,8 +17,54 @@
   font-weight: 500;
   text-decoration: none;
   color: #000;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.menu_item:hover {
+  color: #FF6464;
 }
 
 .menu_list :global(a.active) {
   color: #FF6464;
+}
+
+.burger {
+  width: 30px;
+  display: none;
+  flex-direction: column;
+  gap: 9px;
+  cursor: pointer;
+}
+
+.burger_line {
+  height: 2px;
+  width: 30px;
+  background-color: #21243D;
+  transition: all .5s;
+}
+
+.burger_active .burger_line:first-child {
+  rotate: 45deg;
+  translate: 0px 10px;
+}
+
+.burger_active .burger_line:nth-child(2) {
+  rotate: 45deg;
+  translate: -1px 7px;
+}
+
+.burger_active .burger_line:last-child {
+  rotate: -45deg;
+  translate: -1px 6px;
+}
+
+@media (max-width:600px) {
+  .burger {
+    display: flex;
+  }
+
+  .menu_list {
+    display: none;
+  }
 }

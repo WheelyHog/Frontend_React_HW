@@ -1,8 +1,8 @@
 import React from 'react'
-import fb from './img/fb.png'
-import insta from './img/insta.png'
-import twit from './img/twit.png'
-import linkedin from './img/Linkedin.png'
+import fb from './img/fb.svg'
+import insta from './img/insta.svg'
+import twit from './img/twit.svg'
+import linkedin from './img/Linkedin.svg'
 import s from './Footer.module.css'
 
 export default function Footer() {

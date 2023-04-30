@@ -1,6 +1,6 @@
 .posts_container {
   background: #EDF7FA;
-  padding: 30px 140px;
+  padding: 30px 0;
 }
 
 .header {
@@ -26,5 +26,10 @@
 
 .container {
   display: flex;
-  gap: 20px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    flex-direction: column;
+  }
 }

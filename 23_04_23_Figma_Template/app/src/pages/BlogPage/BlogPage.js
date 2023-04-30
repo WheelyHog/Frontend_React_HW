@@ -8,7 +8,7 @@ export default function BlogPage() {
     <div className={s.wrapper}>
       <h1 className={s.title}>Blog</h1>
       <div className={s.blog_container}>
-        {posts.map((elem, index) => <div>
+        {posts.sort((a, b) => b.date - a.date).map((elem, index) => <div key={index}>
           <Post key={index} {...elem} />
           <hr />
         </div>)}
