@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  background: url('./assets/bg.main.png');
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+}

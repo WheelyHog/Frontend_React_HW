@@ -1,0 +1,55 @@
+.cart_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid orange;
+  border-radius: 3px;
+}
+
+.cart_item img {
+  width: 70px;
+  height: 70px;
+}
+
+.cart_item h3 {
+  width: 200px;
+}
+
+.button_wrapper,
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.button_wrapper {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.trash {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.trash:hover {
+  color: orangered;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid orange;
+  background-color: #161616;
+  border-radius: 3px;
+  cursor: pointer;
+  color: orange;
+  font-size: 20px;
+  transition: all .5s;
+}
+
+.button:hover {
+  background-color: orange;
+  color: #161616;
+}
