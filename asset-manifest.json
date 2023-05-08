@@ -1,18 +1,14 @@
 {
   "files": {
-    "main.css": "/Frontend_React_HW/static/css/main.07af3bca.css",
-    "main.js": "/Frontend_React_HW/static/js/main.bdcdec9b.js",
-    "static/media/avatar.png": "/Frontend_React_HW/static/media/avatar.827844632d6f012ee1c2.png",
-    "static/media/insta.svg": "/Frontend_React_HW/static/media/insta.3d68c46cfdb30a63df12cfd1e23c9a94.svg",
-    "static/media/twit.svg": "/Frontend_React_HW/static/media/twit.a32db65d6e8196f04e3966848ec15ed4.svg",
-    "static/media/Linkedin.svg": "/Frontend_React_HW/static/media/Linkedin.05ad1948f9e4becd70e323c2cf6089bc.svg",
-    "static/media/fb.svg": "/Frontend_React_HW/static/media/fb.09acd56da0adb2d6e6e32841041e5a3a.svg",
-    "index.html": "/Frontend_React_HW/index.html",
-    "main.07af3bca.css.map": "/Frontend_React_HW/static/css/main.07af3bca.css.map",
-    "main.bdcdec9b.js.map": "/Frontend_React_HW/static/js/main.bdcdec9b.js.map"
+    "main.css": "/static/css/main.f63eda93.css",
+    "main.js": "/static/js/main.4d3740ff.js",
+    "static/media/bg.main.png": "/static/media/bg.main.d1d4508a856c3c12745d.png",
+    "index.html": "/index.html",
+    "main.f63eda93.css.map": "/static/css/main.f63eda93.css.map",
+    "main.4d3740ff.js.map": "/static/js/main.4d3740ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.07af3bca.css",
-    "static/js/main.bdcdec9b.js"
+    "static/css/main.f63eda93.css",
+    "static/js/main.4d3740ff.js"
   ]
 }
